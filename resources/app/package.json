@@ -1,0 +1,27 @@
+{
+  "name": "roborocket",
+  "productName": "Robo Rocket MHI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoserpa1/RoboRocket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoserpa1/RoboRocket/issues"
+  },
+  "homepage": "https://github.com/eduardoserpa1/RoboRocket#readme",
+  "devDependencies": {
+    "electron": "^8.3.4",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "python-shell": "^2.0.0"
+  }
+}

@@ -1,0 +1,160 @@
+ 
+body{
+    background-image: url("../img/background_rocket.png");
+    font-family: Arial thin;
+    color: white;
+}
+h1,h3{
+    text-align: center;
+}
+
+input:focus{outline:none}
+button:focus {outline:none}
+select:focus {outline:none}
+option:focus {outline:none}
+
+
+.bloco{
+    /*background-color: #191e2e;*/
+    background-color: #1b2134;
+    border: solid 1px #1b2336;
+    border-radius: 15px;
+}
+.info_inputs:hover{
+    background-color: #41495c;
+}
+.info_inputs{
+    text-align:center;
+
+    width: 200px;
+    height: 50px;
+
+    font-size: 32px;
+
+    font-family: Roboto;
+
+    cursor: pointer;
+
+    border: solid 1px #2e344b;
+    border-radius: 5px;
+
+    background-color: #373e51;
+
+    color: white;
+}
+.resultado_div_item{
+    font-size: 24px;
+    text-align: center;
+    background-color: #1d2233;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+
+    border: solid 1px #1d2233;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.resultado_div_item:hover{
+    background-color: #171b29;
+}
+.resultado_div_item > b{
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+#info_div_item > b{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#info_div_item{
+    font-size: 24px;
+    text-align: center;
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+#info{
+    text-align: center; 
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 150px;
+}
+
+
+#tempo{
+    height: 46px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#resultado_div{
+    
+}
+#qtd_ativos_div{
+    font-size: 18px;
+    font-family: Roboto thin;
+    margin-left: 2%;
+    margin-top: 1%;
+    position: absolute;
+    
+}
+#qtd_ativos{
+    opacity: 50%;
+}
+#div_botao_sair{
+    width: 80px;
+    height: 80px;   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+#botao:active{
+    background-color: #2e344b;
+}
+
+#botao_sair{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+#botao_sair{
+    font-family: Roboto;
+    font-size: 20px;
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+    color: white;
+    background-color: #373e51;
+    border: solid 1px #1d2233;
+    border-radius: 5px;
+}
+#botao_sair:hover{
+    background-color: #41495c;
+    width: 118px;
+    height: 78px;
+    border-radius: 8px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+#botao_sair:active{
+    background-color: #2e344b;
+}
+#logo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
